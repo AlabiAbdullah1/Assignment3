@@ -1,0 +1,290 @@
+@media(min-width:768px){
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whole {
+  display: flex;
+  flex-wrap: wrap;
+  height: 840px;
+  width: 1440px;
+  background-color: azure;
+  justify-content: center;
+}
+.individual-group {
+  width: 460px;
+  height: 275px;
+  margin-top: 205px;
+}
+.individual-group img {
+  margin-bottom: 5px;
+  margin-left: -18px;
+}
+.individual-group h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.individual-group p {
+  width: 390px;
+}
+.form {
+  height: 679px;
+  width: 580px;
+  box-shadow: #0408131a;
+  /* box-shadow: 0px 4px 50px 0px #0408131a; */
+  background-color: white;
+  margin-top: 81px;
+}
+.forum {
+  margin-top: 40px;
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.forum p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.forum span {
+  margin-bottom: 32px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.forum input {
+  width: 200px;
+  height: 48px;
+}
+
+input:hover{
+  border:  1px solid #2ec4b6;
+}
+
+.second p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.second span {
+  margin: 40px;
+}
+.second {
+  margin-top: 10px;
+  padding: 0 65px;
+}
+.second input {
+  width: 425px;
+  height: 48px;
+}
+button {
+  /* width: 425px; */
+  width: 100%;
+  height: 48px;
+  background-color: #2ec4b6;
+  color: #ffffff;
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  border: none;
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+#down{
+  width: 20px;
+  height: 20px;
+  margin-left: 170px;
+  margin-top: -33px;
+  cursor: pointer;
+}
+
+
+#level{
+  width: 20px;
+  height: 20px;
+  margin-left:400px;
+  position: absolute;
+ margin-top: -30px;
+ cursor: pointer;
+}
+
+
+#show{
+  width: 20px;
+  height: 20px;
+  margin-left:400px;
+  position: absolute;
+ margin-top: -35px;
+ cursor: pointer;
+}
+
+ .pp{
+  margin-top: 5px;
+  text-align: center;
+ }
+
+ input{
+  border:1px solid black;
+ }
+
+ .pp a{
+  color:#2ec4b6;
+ }
+
+}
+
+
+
+@media  (max-width:828px){
+
+  * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f7fdfc;
+    display: flex;
+    align-items: center;
+    width: auto;
+    
+
+  }
+  .whole {
+    height: 1294px;
+    width: 320px;
+    display: block;
+    background-color: #f7fdfc;
+  }
+  .individual-group {
+    width: auto;
+    margin-top: 20px;
+  }
+  .individual-group img {
+    margin-bottom: 5px;
+    margin-left: -1px;
+  }
+  .individual-group h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  .individual-group p {
+    width: 390px;
+  }
+  .form {
+    height: auto;
+    width: 327px;
+    box-shadow: #0408131a;
+    box-shadow: 0px 4px 50px 0px #0408131a;
+    background-color: white;
+    margin-top: 51px;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+  .forum span {
+    display: block;
+    margin-top: 20px;
+
+    /* flex-direction: column; */
+  }
+  input {
+    width: 295px;
+    height: 48px;
+  }
+  .second input {
+    width: 200px;
+    height: 48px;
+  }
+  button {
+    width: 200px;
+  }
+  .pp {
+    font-size: 11px;
+    margin-top: 15px;
+    text-align: center;
+    
+  }
+
+  .pp a{
+    color:#2ec4b6;
+   }
+
+
+  .individual-group {
+    width: 327px;
+    height: 235px;
+  }
+  .individual-group img {
+    margin-top: 150px 0;
+    width: 70px;
+    height: 70px;
+  }
+  .individual-group h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .individual-group p {
+    width: 315px;
+  }
+
+  
+#down{
+  width: 20px;
+  height: 20px;
+  margin-left: -30px;
+  margin-top: 15px;
+  cursor: pointer;
+  position: absolute;
+}
+
+
+#level{
+  width: 20px;
+  height: 20px;
+  margin-left: -30px;
+  position: absolute;
+ margin-top: 15px;
+ cursor: pointer; 
+}
+
+
+#show{
+  width: 20px;
+  height: 20px;
+  margin-left: -30px;
+  margin-top: 15px;
+  position: absolute;
+ 
+ cursor: pointer;
+}
+
+#levelinput{
+  width: 90%;
+}
+
+#password{
+  width: 90%;
+}
+
+button {
+  width: 90%;
+  height: 48px;
+  background-color: #2ec4b6;
+  color: #ffffff;
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+}
